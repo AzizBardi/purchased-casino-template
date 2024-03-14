@@ -1,3 +1,22 @@
+## AZIZ BARDI TEST EXPLANATION
+
+### Test process and explanation
+
+**important : The video is present under the folder resource/**
+
+To present the process more clearly and concisely, here's a revised version of your steps:
+
+1. We began by retrieving a smart contract from a casino token as an example. The contract contains various data points.
+2. The ABI (Application Binary Interface) was extracted and saved in the `config/abi` directory.
+3. Following that, I installed the Web3.js library and set up our `.env` file, incorporating the Alchemy node endpoint and the contract's address.
+4. I created two types of endpoints:
+    - The first endpoint allows for the retrieval of specific methods from the smart contract.
+    - The second endpoint fetches all methods from the contract. 
+
+**It's important to note that both endpoints currently lack security measures, making them unsuitable for production environments without additional security layers.**
+
+5. Lastly, we integrated our routes with the controller to facilitate these interactions.
+
 # Casino Platform (Casino Template - Paid Version 1.1.2)
 
 ## Technologies Used
@@ -24,6 +43,7 @@
 - Security-packages included to make the application more robust are: **helmet**, **hpp**, **express-rate-limit** & **express-mongo-sanitize**
 
 ### Blockchain:
+
 (coming soon...)
 
 ## Quick Start
